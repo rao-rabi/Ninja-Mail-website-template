@@ -1,0 +1,148 @@
+@font-face {
+    font-family:'play fair display' ;
+    src: url(/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: 'rale way';
+    src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+/* full background */
+
+.bg-stuff{
+    background-image: url(/Assessts/BG\ stuff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 8%;
+    padding-top: 12%;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width:425px) {
+    .hero-img{
+        margin-top: 12%;
+        margin-left: 0%;
+        height: 100%;
+        width:120%;
+    }
+    .hero{
+        margin-top: -10%;
+    }
+    .hero-text{
+        padding-top: 20%;
+    }
+    .headmain{
+        font-size:10vh;
+        font-weight:bolder;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .headtext{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .logo-nav{
+        width: 10rem;
+        padding-top:4px;
+    }
+}
+
+/* navbar */
+
+.nav-link:hover{
+    cursor: pointer;
+    margin-top: 3%;
+    border:1px solid #4BA87D;
+    background-color: #119a5a;
+}
+.navbar-nav{
+    font-size: 1.2rem;
+}
+.btn-hov:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 3px 6px #119a5a;
+    padding: 1vh;;
+}
+
+/* hero */
+
+.hero-section{
+    margin-top: -5%;
+}
+.hero{
+    font-family: 'play fair display';
+    font-size: 5rem;
+}
+.hero-img{
+    background-image: url(/Assessts/hero\ photo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 95% 0%;
+    height: 58vh;
+} 
+.btn-1{
+    margin-left: -5%;
+}
+.btn-hov-1{
+    border: 5px solid #337054;
+    color: #337054;
+}
+.btn-hov-1:hover{
+    cursor: pointer;
+    color:#ffffff;
+    box-shadow: inset 0px 0px 0px 1000px #12b167;
+}
+
+/* reack more customers */
+
+.customer-section{
+    margin-top: 12%;
+}
+.video-img{
+    background-image: url(/Assessts/VIDEO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 73vh;
+    position:relative;
+    font-family: 'play fair display';
+    z-index:1
+}
+
+/* learn more cards */
+
+.learn-card{
+    font-family:'rale way';
+}
+.card-header{
+    font-family: 'play fair display';
+    margin-top: 25%;
+}
+.learn-card:hover{
+    cursor: pointer;
+    box-shadow:1px 1px 3px 6px #77ff9b;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+/* members */
+
+.text-1{
+    margin-top: 8rem;
+}
+.card-member:hover{
+    box-shadow:1px 1px 3px 6px #1eff5a;
+    cursor: pointer;
+    padding:-1vh;
+}
+
+/* join US */
+
+.join-text{
+    font-family: 'play fair display';
+}
+
+/* pick a plan */
+
+.pick-plan{
+    background-color: #4BA87D;
+}
+
